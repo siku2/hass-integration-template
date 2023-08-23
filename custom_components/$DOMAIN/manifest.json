@@ -1,0 +1,19 @@
+{
+    "domain": "$DOMAIN",
+    "name": "$NAME",
+    "after_dependencies": [],
+    "codeowners": [
+        "@siku2"
+    ],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/siku2/hass-$DOMAIN",
+    "homekit": {},
+    "iot_class": "local_polling",
+    "issue_tracker": "https://github.com/siku2/hass-$DOMAIN/issues",
+    "mqtt": [],
+    "requirements": [],
+    "ssdp": [],
+    "version": "0.0.0",
+    "zeroconf": []
+}
