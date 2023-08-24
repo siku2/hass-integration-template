@@ -4,10 +4,11 @@
 [![GitHub Activity](https://img.shields.io/github/commit-activity/y/siku2/hass-$DOMAIN.svg?style=for-the-badge)](https://github.com/siku2/hass-$DOMAIN/commits/main)
 [![License](https://img.shields.io/github/license/siku2/hass-$DOMAIN.svg?style=for-the-badge)](LICENSE)
 
-[![hacs](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://hacs.xyz/docs/faq/custom_repositories)
+[![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://hacs.xyz/docs/faq/custom_repositories)
+
+[![GitLocalize](https://gitlocalize.com/repo/$GIT_LOCALIZE_PROJECT/whole_project/badge.svg)](https://gitlocalize.com/repo/$GIT_LOCALIZE_PROJECT/whole_project?utm_source=badge)
 
 _short explanation_
-
 
 ## Installation
 
@@ -16,6 +17,16 @@ _short explanation_
 3. Restart Home Assistant.
 4. Set up the integration using the UI: [![Add Integration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=$DOMAIN)
 
-## Contributions are welcome!
+## Contributions are welcome
 
 If you want to contribute to this please read the [Contribution guidelines](CONTRIBUTING.md)
+
+### Providing translations for other languages
+
+If you would like to use the integration in another language, you can help out by providing the necessary translations.
+
+[Head over to **GitLocalize** to start translating.](https://gitlocalize.com/repo/$GIT_LOCALIZE_PROJECT)
+
+If your desired language isn't available there, just open an issue to request it.
+
+You can also just do the translations manually in [custom_components/$DOMAIN/translations/](./custom_components/$DOMAIN/translations/) and open a pull request with the changes.
