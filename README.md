@@ -1,12 +1,12 @@
 # $NAME Home Assistant Integration
 
-[![GitHub Release](https://img.shields.io/github/release/siku2/hass-$DOMAIN.svg?style=for-the-badge)](https://github.com/siku2/hass-$DOMAIN/releases)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/y/siku2/hass-$DOMAIN.svg?style=for-the-badge)](https://github.com/siku2/hass-$DOMAIN/commits/main)
-[![License](https://img.shields.io/github/license/siku2/hass-$DOMAIN.svg?style=for-the-badge)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/release/siku2/hass-$DOMAIN.svg?style=flat-square)](https://github.com/siku2/hass-$DOMAIN/releases)
+[![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square)](https://hacs.xyz/docs/faq/custom_repositories)
 
-[![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://hacs.xyz/docs/faq/custom_repositories)
+[![License](https://img.shields.io/github/license/siku2/hass-$DOMAIN.svg?style=flat-square)](LICENSE)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/y/siku2/hass-$DOMAIN.svg?style=flat-square)](https://github.com/siku2/hass-$DOMAIN/commits/main)
 
-[![GitLocalize](https://gitlocalize.com/repo/$GIT_LOCALIZE_PROJECT/whole_project/badge.svg)](https://gitlocalize.com/repo/$GIT_LOCALIZE_PROJECT/whole_project?utm_source=badge)
+
 
 _short explanation_
 
@@ -24,6 +24,8 @@ Make sure you have [HACS](https://hacs.xyz) installed.
 If you want to contribute to this please read the [Contribution guidelines](CONTRIBUTING.md)
 
 ### Providing translations for other languages
+
+[![GitLocalize](https://gitlocalize.com/repo/$GIT_LOCALIZE_PROJECT/whole_project/badge.svg)](https://gitlocalize.com/repo/$GIT_LOCALIZE_PROJECT)
 
 If you would like to use the integration in another language, you can help out by providing the necessary translations.
 
