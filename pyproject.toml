@@ -1,8 +1,9 @@
-# The contents of this file is based on https://github.com/home-assistant/core/blob/dev/pyproject.toml
+[project]
+name = "hass-integration-template"
+dynamic = ["version"]
+dependencies = ["colorlog", "homeassistant==2025.4.4"]
 
-target-version = "py312"
-
-[lint]
+[tool.ruff.lint]
 select = [
     "B007",    # Loop control variable {name} not used within loop body
     "B014",    # Exception handler with duplicate exception
@@ -39,11 +40,11 @@ ignore = [
     "E731", # do not assign a lambda expression, use a def
 ]
 
-[lint.flake8-pytest-style]
+[tool.ruff.lint.flake8-pytest-style]
 fixture-parentheses = false
 
-[lint.pyupgrade]
+[tool.ruff.lint.pyupgrade]
 keep-runtime-typing = true
 
-[lint.mccabe]
+[tool.ruff.lint.mccabe]
 max-complexity = 25

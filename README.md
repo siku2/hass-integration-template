@@ -6,8 +6,6 @@
 [![License](https://img.shields.io/github/license/siku2/hass-$DOMAIN.svg?style=flat-square)](LICENSE)
 [![GitHub Activity](https://img.shields.io/github/commit-activity/y/siku2/hass-$DOMAIN.svg?style=flat-square)](https://github.com/siku2/hass-$DOMAIN/commits/main)
 
-
-
 _short explanation_
 
 ## Installation
