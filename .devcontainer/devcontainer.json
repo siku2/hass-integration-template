@@ -3,6 +3,9 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
+    "runArgs": [
+        "--network=host",
+    ],
     "postCreateCommand": "scripts/setup.sh",
     "forwardPorts": [
         8123
@@ -24,6 +27,7 @@
                 "ms-python.vscode-pylance",
                 "ryanluker.vscode-coverage-gutters",
                 "tamasfe.even-better-toml",
+                "tekumara.typos-vscode",
                 "yzhang.markdown-all-in-one",
             ],
             "settings": {
