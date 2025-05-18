@@ -9,11 +9,8 @@ if [[ ! -d "${PWD}/config" ]]; then
     hass --config "${PWD}/config" --script ensure_config
 fi
 
-# Set the path to custom_components
-## This let's us have the structure we want <root>/custom_components/integration_blueprint
-## while at the same time have Home Assistant configuration inside <root>/config
-## without resulting to symlinks.
-export PYTHONPATH="${PYTHONPATH:-}:${PWD}/custom_components"
+# Home Assistant will use 'import custom_components' to load custom components
+export PYTHONPATH="${PYTHONPATH:-}:${PWD}"
 
 # Start Home Assistant
 hass --config "${PWD}/config" --debug
